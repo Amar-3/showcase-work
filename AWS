@@ -1,0 +1,16 @@
+During my internship at ZeonAi Labs, I applied AWS services extensively to build scalable, reliable, and secure features for enterprise-grade applications.
+My primary work involved designing and optimizing the document storage workflow for the Indian Airforce DMS, where AWS S3 played a central role.
+
+I engineered a Google Drive–style file and folder upload system backed by AWS S3, enabling secure object storage, high-speed uploads, and efficient retrieval workflows.
+I implemented multi-part uploads to handle large files and configured structured S3 key patterns to support multi-tenant isolation.
+Along with this, I designed metadata persistence in MySQL to ensure each S3 object was consistently tracked, even during concurrent uploads.
+
+To improve performance, I integrated AWS S3 presigned URLs for controlled and temporary access, reducing server load and providing secure, direct upload capability to the client.
+This significantly improved upload speed and enhanced the overall user experience.
+
+I also applied AWS best practices for security by enabling proper bucket policies, using IAM roles with least-privilege access, and ensuring strict tenant-level separation for sensitive data belonging to the Indian Airforce.
+
+As part of the scalability work, I optimized how files were stored, accessed, and versioned on S3, helping reduce redundancy and improving overall system throughput.
+This contributed to a 40% improvement in upload time when combined with optimized backend logic.
+
+Overall, AWS—especially S3 and related security practices—was essential in delivering a robust, scalable, and secure document management workflow capable of supporting high-volume, mission-critical operations.
