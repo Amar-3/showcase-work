@@ -1,0 +1,17 @@
+During my role as a Software Developer Intern at ZeonAi Labs,
+I applied HTML5, JavaScript, and CSS3 extensively to build responsive, performant,and user-centric interfaces across mission-critical applications.
+One of my major contributions was to the Indian Airforce Document Management System (DMS),
+where I engineered the front-end workflow for secure file management,
+multi-tenant dashboards, and user interaction flows. Using HTML5, I designed semantic,
+accessibility-friendly layouts that supported structured rendering of files, folders, and metadata.
+
+Custom HTML5 APIs such as File API were used to validate uploads, handle drag-and-drop interactions, and manage large file operations efficiently. 
+With JavaScript, I implemented dynamic components including real-time upload progress bars, session timeout prompts, and auto-refresh mechanisms for high-volume dashboards. 
+I wrote asynchronous logic to integrate with REST APIs, optimized DOM updates for performance, and used event-driven programming to ensure a fluid user experience.
+JavaScript also played a key role in state management for the RBAC system, enabling dynamic visibility control based on user roles and tenant permissions.
+On the styling side, CSS3 was crucial for delivering a clean and functional UI suitable for high-security military workflows. 
+I built responsive layouts using Flexbox and Grid, ensuring compatibility across devices used by different stakeholders. 
+CSS animations were used to enhance feedback for uploads, alerts, and navigation, while maintaining a lightweight footprint.
+I also implemented scalable design systems with reusable components and consistent theming aligned with the project’s security-first approach. 
+Overall, HTML5, JavaScript, and CSS3 were instrumental in building intuitive, efficient, and high-performance front-end experiences that complemented the system’s complex backend architecture.
+These technologies enabled me to transform functional requirements into smooth UI workflows, significantly improving usability and operational efficiency for end users.
