@@ -1,1 +1,26 @@
-TBD
+During my tenure as a Software Developer Intern at ZeonAi Labs,
+SQL played a central role in designing scalable systems and ensuring data reliability across multiple high-impact projects.
+My strongest application of SQL was during the development of the Indian Airforce Document Management System (DMS),
+where I worked extensively with MySQL to build a secure, efficient, and multi-tenant data architecture.
+
+One of my key responsibilities was optimizing the multi-tenant relational schema, 
+where I restructured tables, indexes,
+and query patterns to support SaaS-scale consumption. 
+This included designing normalized and partition-aware tables to isolate tenant data while maintaining fast query performance.
+As system load grew, certain SQL queries became bottlenecks. To address this,
+I implemented a Redis-based queuing and caching layer, 
+offloading repetitive read operations while ensuring consistency with the MySQL backend.
+This approach reduced database load and improved throughput by 35%.
+
+I also engineered concurrent metadata persistence for a Google Drive–style file/folder upload module.
+Here, I designed SQL transactions that maintained referential integrity even under high-volume parallel writes. 
+This improved upload efficiency by 40% while ensuring that metadata updates remained atomic.
+
+Security also required the application of SQL. While building the RBAC-based multi-tenant permission system,
+I wrote SQL queries and joins that enforced user-role mappings, hierarchical access rules,
+
+and tenant-level scoping. This ensured that sensitive data remained isolated and audit-friendly.
+
+Across both major projects, I consistently used SQL for complex data transformations,
+ensuring ACID compliance, preventing race conditions, and maintaining data correctness under high concurrency.
+Overall, SQL was instrumental in enabling scalability, robustness, and performance for mission-critical systems I contributed to.
